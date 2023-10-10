@@ -3,7 +3,7 @@ import logging
 
 import pytest
 
-from testlib.budapest import log_messages
+import log_messages
 
 
 @pytest.fixture(scope='module', autouse=True)
